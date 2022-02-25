@@ -1,0 +1,10 @@
+<div *ngIf="data === null">
+  LOADING...
+</div>
+<div *ngIf="data !== null">
+  {{ data.total_animals }}<br>
+  {{ data.total_animals_without_owner }}
+</div>
+
+
+<router-outlet></router-outlet>
